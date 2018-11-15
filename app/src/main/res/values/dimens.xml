@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_margin">15dp</dimen>
+    <dimen name="button_text">20dp</dimen>
+    <dimen name="button_padding">18dp</dimen>
+    <dimen name="simple_text">18dp</dimen>
+    <dimen name="primary_text">22dp</dimen>
+    <dimen name="main_texts">30dp</dimen>
+    <dimen name="main_padding">30dp</dimen>
+    <dimen name="main_margin_item">15dp</dimen>
+    <dimen name="margin_item2">8dp</dimen>
+</resources>

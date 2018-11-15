@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/main_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/profileNameTV"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Ahmad Alsaleh"
+                android:textSize="@dimen/primary_text"
+                android:textColor="@color/Argilla2"
+                android:layout_marginLeft="@dimen/main_margin_item"
+                android:layout_marginRight="@dimen/main_margin_item"
+                tools:ignore="SpUsage" />
+
+            <EditText
+                android:visibility="gone"
+                android:id="@+id/profileNameET"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Enter New Name"
+                android:inputType="textPersonName"
+                android:layout_marginLeft="@dimen/main_margin_item"
+                android:layout_marginRight="@dimen/main_margin_item"
+                android:textSize="@dimen/primary_text"
+                android:textColor="@color/Argilla2"
+                tools:ignore="SpUsage" />
+
+            <ImageView
+                android:id="@+id/profileNameIV"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/ic_edit"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/profileNameOldTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginLeft="@dimen/main_margin_item"
+            android:layout_marginStart="@dimen/main_margin_item" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ArgillaSilver"
+            android:layout_margin="@dimen/main_margin_item"/>
+        <!-- end name -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/profilePhoneTV"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="0951784957"
+                android:textSize="@dimen/primary_text"
+                android:textColor="@color/Argilla2"
+                android:layout_marginLeft="@dimen/main_margin_item"
+                android:layout_marginRight="@dimen/main_margin_item"
+                tools:ignore="SpUsage" />
+
+            <EditText
+                android:visibility="gone"
+                android:id="@+id/profilePhoneET"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="phone"
+                android:layout_marginLeft="@dimen/main_margin_item"
+                android:layout_marginRight="@dimen/main_margin_item"
+                android:textSize="@dimen/primary_text"
+                android:textColor="@color/Argilla2"
+                tools:ignore="SpUsage"
+                android:text="0951784957"/>
+
+            <ImageView
+                android:id="@+id/profilePhoneIV"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/ic_edit"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/profilePhoneOldTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/main_margin_item"
+            android:layout_marginStart="@dimen/main_margin_item" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ArgillaSilver"
+            android:layout_margin="@dimen/main_margin_item"/>
+        <!-- end phone -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/profileEmailTV"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_height="wrap_content"
+                android:text="alsaleh.a.ahmad@gmail.com"
+                android:textSize="@dimen/primary_text"
+                android:textColor="@color/Argilla2"
+                android:layout_marginLeft="@dimen/main_margin_item"
+                android:layout_marginRight="@dimen/main_margin_item"
+                tools:ignore="SpUsage" />
+
+            <EditText
+                android:visibility="gone"
+                android:id="@+id/profileEmailET"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="@dimen/main_margin_item"
+                android:layout_marginRight="@dimen/main_margin_item"
+                android:textSize="@dimen/primary_text"
+                android:textColor="@color/Argilla2"
+                tools:ignore="SpUsage"
+                android:text="Ahmad Alsaleh"/>
+
+            <ImageView
+                android:id="@+id/profileEmailIV"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/ic_edit"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/profileEmailOldTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/main_margin_item"
+            android:layout_marginStart="@dimen/main_margin_item" />
+        <!-- end email -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:id="@+id/profileBTNs"
+            android:visibility="gone"
+            android:layout_margin="@dimen/main_margin_item">
+
+            <Button
+                android:id="@+id/profileSaveBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/main_margin_item"
+                android:textColor="@color/Argilla2"
+                android:background="@drawable/white_main_button_background"
+                android:textSize="@dimen/button_text"
+                android:text="Cancel"
+                android:paddingLeft="@dimen/button_padding"
+                android:paddingRight="@dimen/button_padding"
+                tools:ignore="SpUsage" />
+
+            <Button
+                android:id="@+id/profileCancelBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:background="@drawable/main_button_background"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/button_text"
+                android:layout_margin="@dimen/main_margin_item"
+                tools:ignore="SpUsage"
+                android:paddingLeft="@dimen/button_padding"
+                android:paddingRight="@dimen/button_padding"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/profileChangePasswordLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/ArgillaSilver"
+            android:layout_marginLeft="@dimen/main_margin_item"
+            android:layout_marginRight="@dimen/main_margin_item"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Password"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="@dimen/primary_text"
+            android:layout_marginTop="@dimen/margin_item2"
+            android:layout_marginBottom="@dimen/margin_item2"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

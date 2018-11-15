@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/Argilla2</color>
+    <color name="colorPrimaryDark">@color/Argilla2</color>
+    <color name="colorAccent">@color/Argilla2</color>
+
+    <color name="Argilla1">#EC422A</color>
+    <color name="Argilla2">#f57f17</color>
+    <color name="ArgillaSilver">#A59089</color>
+
+    <color name="ArgillaMainHide">#a0f57f17</color>
+    <color name="whiteHide">#a0ffffff</color>
+
+</resources>
